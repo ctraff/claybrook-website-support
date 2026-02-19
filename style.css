@@ -44,6 +44,16 @@ nav img {
 main {
     grid-area: main;
     background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: url('imgs/mainBG2.png');
+    background-size: contain;
+}
+
+main a {
+    width: 20%;
 }
 
 aside {
@@ -68,5 +78,7 @@ body {
 }
 
 main img {
-    width: 100px;
+    width: 100%;
+    border: 5px solid #014e2e;
+    border-radius: 20px;
 }
