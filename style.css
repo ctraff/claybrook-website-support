@@ -5,12 +5,40 @@
 
 header {
     grid-area: header;
-    background-color: blue;
+    background-image: url('imgs/banner4.jpeg');
+    background-size: cover;
+    min-height: 40vh;
+    background-position: top;
+}
+
+header h1 {
+    color: white;
+    padding: 3em;
 }
 
 nav {
     grid-area: nav;
     background-color: #014e2e;
+    display: flex;
+    align-items: center;
+    height: 2.5em;
+    margin-top: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav img {
+    height: 100%;
 }
 
 main {
