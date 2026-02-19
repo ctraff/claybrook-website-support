@@ -46,8 +46,8 @@ main {
     background-color: #fff;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
     background-image: url('imgs/mainBG2.png');
     background-size: contain;
 }
@@ -59,11 +59,19 @@ main a {
 aside {
     grid-area: aside;
     background-color: #013006;
+    padding: 0.5em;
+}
+
+aside ul {
+    padding-left: 1em;
+    color: white;
 }
 
 footer {
     grid-area: footer;
     background-color: #014e2e;
+    color: white;
+    padding: 1.5em;
 }
 
 body {
